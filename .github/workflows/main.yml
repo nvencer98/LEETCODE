@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Sync
-        uses: nvencer98/LEETCODE
+        uses: nvencer98/LEETCODE@ref
         with:
           github-token: ${{ github.token }}
           leetcode-csrf-token: ${{ secrets.CSRF }}
